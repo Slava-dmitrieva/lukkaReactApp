@@ -1,0 +1,44 @@
+.foodItem{
+    text-decoration: none;
+    color: white;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+    background-color: rgb(255, 249, 241);
+    background-position: center;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+}
+.foodItem:hover{
+    box-shadow: 1px 1px 7px 1px rgb(181, 161, 138, 0.5);
+    transition: 500ms;
+}
+.foodItem:not(:last-child){
+    margin-bottom: 30px;
+    margin-right: 9px;
+}
+.foodItemDetails{
+    justify-content: center;
+    padding: 10px;
+}
+.foodItemTitle{
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.foodInfo{
+    color: rgb(74, 74, 74);
+    font-size: 14px;
+}
+
+.foodItemBuy{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 10px;
+    bottom: 25px;
+}
+
+

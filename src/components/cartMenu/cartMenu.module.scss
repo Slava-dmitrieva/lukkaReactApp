@@ -1,0 +1,25 @@
+.cartMenu{
+    position: absolute;
+    top:30px;
+    left: -175px;
+    background-color: black;
+    width: 250px;
+    padding: 10px 20px;
+    z-index: 10;
+}
+.arrange{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 20px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4) ;
+}
+.totalPrice{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkOutButton{
+  left: 168px;
+  position: absolute;
+  bottom: 45px;
+}

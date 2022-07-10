@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+body {
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App{
+  max-width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 0;
+  
+}
+.desctop-wrapper{
+  display: flex;
+  width: 1180px;
+  margin:  20px auto;
+}
+a{
+  text-decoration: none;
+}
+.categoryItems{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  color: rgb(255, 175, 27);
+  border-bottom: 2px solid black;
+
+}
+.foodItems{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+html{
+    scroll-behavior: smooth;
+}

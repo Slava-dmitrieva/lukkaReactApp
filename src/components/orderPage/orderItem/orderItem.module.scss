@@ -1,0 +1,42 @@
+.orderItems{
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+    border: 1px solid rgb(255, 222, 202);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.orderItemCover{
+    width: 200px;
+}
+.orderTitle{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px;
+    width: 250px;
+}
+.orderItemPrice{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 25px;
+    display: flex;
+}
+.hendler{
+    margin-right: 10px;
+    background-color: bisque;
+    width: 90px;
+    height: 23px;
+    display: flex;
+    justify-content: space-between;
+    button{
+        color: black;
+        background-color: rgb(255, 175, 27);
+        border: none;
+        width: 30px;
+        &:hover{
+            background-color: black;
+            color: white;
+            transition: 500ms;
+        }
+    }
+}

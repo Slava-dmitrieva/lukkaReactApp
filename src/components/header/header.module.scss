@@ -1,0 +1,40 @@
+.header{
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    z-index: 3;
+
+
+}
+.headerPosition{
+    align-items: center;
+    max-width: 1180px;
+    display: flex;
+    margin: 0 auto;
+
+
+}
+.wrapperPos{
+    display: flex;
+    width: 1180px;
+}
+.wrapper{
+    display: flex;
+    flex-grow: 1;
+    color: white;
+
+
+}
+.headerBasketBtnWrapper{
+    justify-content: flex-end;
+}
+.headerStoreTitle{
+    color: white;
+    font-size: 25px;
+    
+}
